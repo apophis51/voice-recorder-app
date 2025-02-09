@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">MalcMind AI Note Taker</string>
+    <string name="title_activity_main">MalcMind AI Note Taker</string>
+    <string name="package_name">com.malcmind.app</string>
+    <string name="custom_url_scheme">com.malcmind.app</string>
+</resources>
