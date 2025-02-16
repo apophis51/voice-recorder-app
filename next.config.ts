@@ -37,8 +37,16 @@ const nextConfig = {
 		unoptimized: true
 	},
   output: 'export',
+  devServer: {
+    https: true, // Enable HTTPS in development
+    // You can optionally provide your own certificate and key files:
+    // https: {
+    //   key: fs.readFileSync('./ssl/my-key.pem'),
+    //   cert: fs.readFileSync('./ssl/my-cert.pem'),
+    // },
+  },
 
-  
+  // npx next dev --experimental-https
   
   reactStrictMode: false,
   
